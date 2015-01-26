@@ -8,11 +8,14 @@ function onDeviceReady() {
 function onSuccess(acceleration) {
 	var accElement = document.getElementById('accelerometerData');
 
-	accElement.innerHTMl = 
+	accElement.innerHTMl = 'TEST';
+
+	/*accElement.innerHTMl = 
 		'Acceleration X: ' + acceleration.x + '<br />' +
 		'Acceleration Y: ' + acceleration.y + '<br />' + 
 		'Acceleration Z: ' + acceleration.z + '<br />' + 
 		'Timestamp: ' + acceleration.Timestamp;
+		*/
 }
 
 function onError(error) {
